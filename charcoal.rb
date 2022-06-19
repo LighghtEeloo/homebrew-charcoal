@@ -4,7 +4,7 @@
 class Charcoal < Formula
   desc "An online dictionary using youdao dict api. Inspired by wudao-dict."
   homepage "https://github.com/LighghtEeloo/Charcoal"
-  url "https://github.com/LighghtEeloo/Charcoal/archive/refs/tags/v0.1.1.tar.gz"
+  url "https://github.com/LighghtEeloo/Charcoal/archive/refs/tags/v0.1.2.tar.gz"
   sha256 "7dcd85a143c9b503edc39f716fcc45445847da7cb46654ea58bbc26deaeb661b"
   license "MIT"
 
