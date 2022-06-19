@@ -1,11 +1,8 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Charcoal < Formula
   desc "An online dictionary using youdao dict api. Inspired by wudao-dict."
   homepage "https://github.com/LighghtEeloo/Charcoal"
-  url "https://github.com/LighghtEeloo/Charcoal/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "7dcd85a143c9b503edc39f716fcc45445847da7cb46654ea58bbc26deaeb661b"
+  url "https://github.com/LighghtEeloo/Charcoal/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "02db8a22b2a01831af034e5ac8353258471d00f5959484967137b349a1eba3b6"
   license "MIT"
 
   depends_on "rust" => :build
@@ -13,7 +10,7 @@ class Charcoal < Formula
   def install
     system "cargo", "install", *std_cargo_args
     prefix.install "Readme.md"
-    prefix.install "LICENSE"  
+    prefix.install "LICENSE"
   end
 
   test do
