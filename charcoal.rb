@@ -1,8 +1,8 @@
 class Charcoal < Formula
   desc "An online dictionary using youdao dict api. Inspired by wudao-dict."
-  homepage "https://github.com/LighghtEeloo/Charcoal"
-  url "https://github.com/LighghtEeloo/Charcoal/archive/refs/tags/v0.1.3.tar.gz"
-  sha256 "02db8a22b2a01831af034e5ac8353258471d00f5959484967137b349a1eba3b6"
+  homepage "https://github.com/LighghtEeloo/charcoal"
+  url "https://github.com/LighghtEeloo/Charcoal/archive/refs/tags/v0.2.7.tar.gz"
+  sha256 "650841927eb8db80ed2bd23442cb270260ff730ca638269341033a84758f7ef8"
   license "MIT"
 
   depends_on "rust" => :build
