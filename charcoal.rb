@@ -1,16 +1,14 @@
 class Charcoal < Formula
   desc "An online dictionary using youdao dict api. Inspired by wudao-dict."
   homepage "https://github.com/LighghtEeloo/charcoal"
-  url "https://github.com/LighghtEeloo/Charcoal/archive/refs/tags/v0.2.7.tar.gz"
-  sha256 "650841927eb8db80ed2bd23442cb270260ff730ca638269341033a84758f7ef8"
+  url "https://github.com/LighghtEeloo/charcoal/releases/download/v0.2.8/charcoal-aarch64-apple-darwin"
+  sha256 "829c088a3acd64b4c001221e4077771bc797c743a0037db82d399b880ea5fb58"
   license "MIT"
 
   depends_on "rust" => :build
 
   def install
-    system "cargo", "install", *std_cargo_args
-    prefix.install "Readme.md"
-    prefix.install "LICENSE"
+    bin.install "charcoal-aarch64-apple-darwin" => "charcoal"
   end
 
   test do
