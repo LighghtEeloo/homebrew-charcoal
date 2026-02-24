@@ -1,25 +1,25 @@
 class CharcoalDict < Formula
   desc "A command line dictionary"
   homepage "https://github.com/LighghtEeloo/charcoal"
-  version "0.3.1"
+  version "0.3.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/LighghtEeloo/charcoal/releases/download/v0.3.1/charcoal-dict-aarch64-apple-darwin.tar.xz"
-      sha256 "4f839703e1e2986de1ee66a235fc7fc415165ed8b265d8857b6b02ce213c048f"
+      url "https://github.com/LighghtEeloo/charcoal/releases/download/v0.3.2/charcoal-dict-aarch64-apple-darwin.tar.xz"
+      sha256 "d47715fd70670bda1dc9828da96ddb3a81ef4881050023e9a9673c3117c53de6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/LighghtEeloo/charcoal/releases/download/v0.3.1/charcoal-dict-x86_64-apple-darwin.tar.xz"
-      sha256 "89f11811f3bac218f5561c36337ca5ca84b23139d3086fa26a832c3a6eda4991"
+      url "https://github.com/LighghtEeloo/charcoal/releases/download/v0.3.2/charcoal-dict-x86_64-apple-darwin.tar.xz"
+      sha256 "cbca58abd85725375c9a4e8abdb9c2b5f26e3efffc830e4f856473970970e758"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/LighghtEeloo/charcoal/releases/download/v0.3.1/charcoal-dict-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "e6f6e7d65f2ee65deaae907f881b4ae912189ae331b583a63fcb246e4934a592"
+      url "https://github.com/LighghtEeloo/charcoal/releases/download/v0.3.2/charcoal-dict-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "9c117e8f2b973470e3acb93f1bbe0582291b4eb965c7a6b1720492154d7f17a9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/LighghtEeloo/charcoal/releases/download/v0.3.1/charcoal-dict-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "04c4b063087e04ebbb3199cc0222df0f06254be5e4140feaa897ab86c5537d8b"
+      url "https://github.com/LighghtEeloo/charcoal/releases/download/v0.3.2/charcoal-dict-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "714d253255780674b81f0214851b71d75f1fecff660bc220ba69e2ae7be69649"
     end
   end
   license "MIT"
